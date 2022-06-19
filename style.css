@@ -1,0 +1,58 @@
+body {
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  color: white;
+  padding-left: 1.5rem;
+  font-family: sans-serif;
+}
+.yellow {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 0;
+  width: 30%;
+  border-bottom: 50rem solid rgba(235, 193, 41, 0.8);
+  border-left: 10rem solid transparent;
+  color: black;
+  padding-right: 2rem;
+  text-align: right;
+}
+.up {
+  position: absolute;
+  top: 0.5rem;
+}
+.down {
+  position: absolute;
+  bottom: 0.5rem;
+}
+.up p,
+.down p {
+  margin-left: 0.5rem;
+}
+.row {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+}
+.row p {
+  margin-top: 0.2rem;
+  margin-left: 1rem;
+}
+.row:first-of-type {
+  margin-top: 1rem;
+}
+.row:first-of-type p {
+  margin-right: 1rem;
+}
+.text {
+  margin: 17rem 0 4rem;
+}
+.text h1 {
+  font-size: 7rem;
+}
+.text p {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
