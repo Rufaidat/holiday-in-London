@@ -1,5 +1,5 @@
 # holiday-in-London
-A simple magazine cover type of website for the top places to see in London 
+A simple magazine cover type website for the top places to see in London 
 
 #font
 Sans-serif
